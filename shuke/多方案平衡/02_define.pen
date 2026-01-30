@@ -1,0 +1,3842 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "n248",
+      "x": 0,
+      "y": 0,
+      "name": "layout",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "#f5f7fa",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "n12",
+          "name": "el-header",
+          "width": "fill_container",
+          "height": 46,
+          "fill": "#1f76cb",
+          "gap": 16,
+          "padding": 16,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "n4",
+              "name": "Header Left",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "n2",
+                  "name": "Logo Mark",
+                  "width": 28,
+                  "height": 28,
+                  "fill": "#ffffff",
+                  "cornerRadius": 6,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n1",
+                      "name": "Logo",
+                      "fill": "#1f76cb",
+                      "content": "EP",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "n3",
+                  "name": "Brand",
+                  "fill": "#ffffff",
+                  "content": "Element Plus",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "n11",
+              "name": "Header Right",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "n6",
+                  "name": "el-input",
+                  "width": 240,
+                  "height": 28,
+                  "fill": "#ffffff",
+                  "cornerRadius": 6,
+                  "gap": 8,
+                  "padding": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n5",
+                      "name": "Placeholder",
+                      "fill": "#9ca3af",
+                      "content": "Search...",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "n10",
+                  "name": "User Info",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "n8",
+                      "name": "el-avatar",
+                      "width": 28,
+                      "height": 28,
+                      "fill": "#ffffff",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "n7",
+                          "name": "Avatar",
+                          "fill": "#1f76cb",
+                          "content": "A",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "n9",
+                      "name": "User",
+                      "fill": "#ffffff",
+                      "content": "Admin",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZtzFJ",
+          "name": "content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "#f5f7fa",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "oz5XV",
+              "name": "FilterBar",
+              "width": "fill_container",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jN0HZ",
+                  "name": "FilterBar/ElInput-筛选参数",
+                  "width": 220,
+                  "height": 28,
+                  "fill": "#ffffff",
+                  "cornerRadius": 4,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#d1d5db"
+                  },
+                  "gap": 8,
+                  "padding": 8,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "abQWY",
+                      "fill": "#9ca3af",
+                      "content": "筛选参数",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "f5MRm",
+                      "name": "Icon-Search",
+                      "width": 14,
+                      "height": 14,
+                      "cornerRadius": 7,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#9ca3af"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sS0zP",
+              "name": "el-table-参数定义",
+              "clip": true,
+              "width": "fill_container",
+              "height": 912,
+              "fill": "#ffffff",
+              "cornerRadius": 8,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#d1d5db"
+              },
+              "layout": "vertical",
+              "gap": 24,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "freba",
+                  "name": "ElSteps",
+                  "width": "fill_container",
+                  "fill": "#ffffff",
+                  "padding": [
+                    16,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "3qTGU",
+                      "name": "ElStepItem",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "3SNmE",
+                          "name": "ElStepIcon",
+                          "width": 24,
+                          "height": 24,
+                          "fill": "#409eff",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "N1XMk",
+                              "name": "step1IconText",
+                              "fill": "#ffffff",
+                              "content": "1",
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "6j5J0",
+                          "name": "step1Title",
+                          "fill": "#409eff",
+                          "content": "预览",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n8i90",
+                      "name": "ElStepLine",
+                      "width": "fill_container",
+                      "height": 2,
+                      "fill": "#e4e7ed"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8fBOr",
+                      "name": "ElStepItem",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Vkx8I",
+                          "name": "ElStepIcon",
+                          "width": 24,
+                          "height": 24,
+                          "fill": "#c0c4cc",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Fj4He",
+                              "name": "step2IconText",
+                              "fill": "#ffffff",
+                              "content": "2",
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "HjGfo",
+                          "name": "step2Title",
+                          "fill": "#606266",
+                          "content": "定义",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uUuGe",
+                      "name": "ElStepLine",
+                      "width": "fill_container",
+                      "height": 2,
+                      "fill": "#e4e7ed"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "4YkzH",
+                      "name": "ElStepItem",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Xa5wD",
+                          "name": "ElStepIcon",
+                          "width": 24,
+                          "height": 24,
+                          "fill": "#c0c4cc",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "TyQip",
+                              "name": "step3IconText",
+                              "fill": "#ffffff",
+                              "content": "3",
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "FhnQB",
+                          "name": "step3Title",
+                          "fill": "#606266",
+                          "content": "探索",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wKRM8",
+                      "name": "ElStepLine",
+                      "width": "fill_container",
+                      "height": 2,
+                      "fill": "#e4e7ed"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gMi7R",
+                      "name": "ElStepItem",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "wyeG8",
+                          "name": "ElStepIcon",
+                          "width": 24,
+                          "height": 24,
+                          "fill": "#c0c4cc",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "e9rFP",
+                              "name": "step5IconText",
+                              "fill": "#ffffff",
+                              "content": "5",
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "9BoOC",
+                          "name": "step5Title",
+                          "fill": "#606266",
+                          "content": "4",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TliZx",
+                      "name": "ElStepLine",
+                      "width": "fill_container",
+                      "height": 2,
+                      "fill": "#e4e7ed"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GHPbb",
+                      "name": "ElStepItem",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "5Fo1r",
+                          "name": "ElStepIcon",
+                          "width": 24,
+                          "height": 24,
+                          "fill": "#c0c4cc",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Dxx6x",
+                              "name": "step7IconText",
+                              "fill": "#ffffff",
+                              "content": "5",
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "63uXZ",
+                          "name": "step7Title",
+                          "fill": "#606266",
+                          "content": "推荐",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mQFLZ",
+                  "name": "TableMain",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "IUywL",
+                      "name": "TableTitle",
+                      "width": "fill_container",
+                      "height": 28,
+                      "fill": "#b7d4f0",
+                      "padding": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UtxjD",
+                          "fill": "#1f2937",
+                          "content": "案例名称",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "l0fDD",
+                      "name": "Row-年份",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "WsnRX",
+                          "name": "RowHeader",
+                          "width": "fill_container",
+                          "height": 28,
+                          "fill": "#f5e1b3",
+                          "padding": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "aXq1g",
+                              "fill": "#1f2937",
+                              "content": "年份",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "7Y9hz",
+                              "fill": "#6b7280",
+                              "content": "[2013 ... 2015]",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "8uujQ",
+                          "name": "RowBody",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#d9d9d9",
+                          "gap": 16,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "nt98r",
+                              "name": "Field-优先级",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "WmMCv",
+                                  "fill": "#374151",
+                                  "content": "优先级",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "xKDaK",
+                                  "name": "el-select",
+                                  "width": 56,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "0eZW5",
+                                      "fill": "#111827",
+                                      "content": "5",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Nukzc",
+                              "name": "Field-最低阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "hBq59",
+                                  "fill": "#374151",
+                                  "content": "最低阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "RaHMa",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "dKnC3",
+                              "name": "Field-最高阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "YF7KX",
+                                  "fill": "#374151",
+                                  "content": "最高阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "nmNCI",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "s77pa",
+                              "name": "Field-目标值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "XIu0k",
+                                  "fill": "#374151",
+                                  "content": "目标值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "jyaTI",
+                                  "name": "el-select",
+                                  "width": 96,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "36W3q",
+                                      "fill": "#111827",
+                                      "content": "最大化",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "0WUjy",
+                              "name": "Field-写入备注",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "IRQIL",
+                                  "fill": "#374151",
+                                  "content": "写入备注",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "gVUUR",
+                                  "name": "el-input",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "1f8d0",
+                      "name": "Row-价格",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "x7rjw",
+                          "name": "RowHeader",
+                          "width": "fill_container",
+                          "height": 28,
+                          "fill": "#f5e1b3",
+                          "padding": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "RG1Le",
+                              "fill": "#1f2937",
+                              "content": "价格",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "dKQj3",
+                              "fill": "#6b7280",
+                              "content": "[15307 ... 53555]",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "pilbA",
+                          "name": "RowBody",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#d9d9d9",
+                          "gap": 16,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "M8W8W",
+                              "name": "Field-优先级",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "0yKB0",
+                                  "fill": "#374151",
+                                  "content": "优先级",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "PPidC",
+                                  "name": "el-select",
+                                  "width": 56,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "uoV6s",
+                                      "fill": "#111827",
+                                      "content": "5",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "bSfBL",
+                              "name": "Field-最低阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "eolBD",
+                                  "fill": "#374151",
+                                  "content": "最低阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "gsRbp",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "V4SDT",
+                              "name": "Field-最高阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "f3Xsl",
+                                  "fill": "#374151",
+                                  "content": "最高阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "VAm1u",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ka7Gv",
+                              "name": "Field-目标值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "n5ySa",
+                                  "fill": "#374151",
+                                  "content": "目标值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "xlRib",
+                                  "name": "el-select",
+                                  "width": 96,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "myzky",
+                                      "fill": "#111827",
+                                      "content": "最大化",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "RviyM",
+                              "name": "Field-写入备注",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "qcuWd",
+                                  "fill": "#374151",
+                                  "content": "写入备注",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "GL7zG",
+                                  "name": "el-input",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "w0QFQ",
+                      "name": "Row-城市MPG",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FB6LF",
+                          "name": "RowHeader",
+                          "width": "fill_container",
+                          "height": 28,
+                          "fill": "#f5e1b3",
+                          "padding": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "DVCAL",
+                              "fill": "#1f2937",
+                              "content": "城市MPG",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Ruh52",
+                              "fill": "#6b7280",
+                              "content": "[17 ... 51]",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vIvHR",
+                          "name": "RowBody",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#d9d9d9",
+                          "gap": 16,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "qfVaB",
+                              "name": "Field-优先级",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "HPsse",
+                                  "fill": "#374151",
+                                  "content": "优先级",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "z9Ut2",
+                                  "name": "el-select",
+                                  "width": 56,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "LooX9",
+                                      "fill": "#111827",
+                                      "content": "5",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ttZ4g",
+                              "name": "Field-最低阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Zt7bo",
+                                  "fill": "#374151",
+                                  "content": "最低阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "wxPBv",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "8UeG0",
+                              "name": "Field-最高阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "HKiHJ",
+                                  "fill": "#374151",
+                                  "content": "最高阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Cw0Ld",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "3zC6K",
+                              "name": "Field-目标值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "k3J5e",
+                                  "fill": "#374151",
+                                  "content": "目标值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "U569G",
+                                  "name": "el-select",
+                                  "width": 96,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "gQHPY",
+                                      "fill": "#111827",
+                                      "content": "最大化",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "tMCnh",
+                              "name": "Field-写入备注",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "DjPBl",
+                                  "fill": "#374151",
+                                  "content": "写入备注",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "5hjOI",
+                                  "name": "el-input",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hGVn9",
+                      "name": "Row-高速MPG",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "tWrZK",
+                          "name": "RowHeader",
+                          "width": "fill_container",
+                          "height": 28,
+                          "fill": "#f5e1b3",
+                          "padding": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ThODv",
+                              "fill": "#1f2937",
+                              "content": "高速MPG",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "fiiyj",
+                              "fill": "#6b7280",
+                              "content": "[23 ... 48]",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "EffnK",
+                          "name": "RowBody",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#d9d9d9",
+                          "gap": 16,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "8cJH1",
+                              "name": "Field-优先级",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Xz8HU",
+                                  "fill": "#374151",
+                                  "content": "优先级",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "jTn3b",
+                                  "name": "el-select",
+                                  "width": 56,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "LBYmd",
+                                      "fill": "#111827",
+                                      "content": "5",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ifNYo",
+                              "name": "Field-最低阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "i0U73",
+                                  "fill": "#374151",
+                                  "content": "最低阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "3mgec",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Tnq4U",
+                              "name": "Field-最高阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "SmMF1",
+                                  "fill": "#374151",
+                                  "content": "最高阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "LELib",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "RTMNG",
+                              "name": "Field-目标值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vVI4f",
+                                  "fill": "#374151",
+                                  "content": "目标值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "9GvMf",
+                                  "name": "el-select",
+                                  "width": 96,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "gERYm",
+                                      "fill": "#111827",
+                                      "content": "最大化",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "WYHLj",
+                              "name": "Field-写入备注",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "qEPZM",
+                                  "fill": "#374151",
+                                  "content": "写入备注",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "f8LYQ",
+                                  "name": "el-input",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qdiUq",
+                      "name": "Row-马力",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mZloB",
+                          "name": "RowHeader",
+                          "width": "fill_container",
+                          "height": 28,
+                          "fill": "#f5e1b3",
+                          "padding": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "rG3G0",
+                              "fill": "#1f2937",
+                              "content": "马力",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "KsHZp",
+                              "fill": "#6b7280",
+                              "content": "[130 ... 455]",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RlYIA",
+                          "name": "RowBody",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#d9d9d9",
+                          "gap": 16,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "edsYl",
+                              "name": "Field-优先级",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "TrHNS",
+                                  "fill": "#374151",
+                                  "content": "优先级",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "XaqFv",
+                                  "name": "el-select",
+                                  "width": 56,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "ypFiX",
+                                      "fill": "#111827",
+                                      "content": "5",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Zc6XO",
+                              "name": "Field-最低阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "7LuXz",
+                                  "fill": "#374151",
+                                  "content": "最低阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "FygCJ",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "k3xtY",
+                              "name": "Field-最高阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "nlJS3",
+                                  "fill": "#374151",
+                                  "content": "最高阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "pvBS5",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "GGUM8",
+                              "name": "Field-目标值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "98r8b",
+                                  "fill": "#374151",
+                                  "content": "目标值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "dKXFT",
+                                  "name": "el-select",
+                                  "width": 96,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "4njRu",
+                                      "fill": "#111827",
+                                      "content": "最大化",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "sr1CH",
+                              "name": "Field-写入备注",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "DKaoo",
+                                  "fill": "#374151",
+                                  "content": "写入备注",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "dpSnA",
+                                  "name": "el-input",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "2JQA8",
+                      "name": "Row-转速",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "GaYz6",
+                          "name": "RowHeader",
+                          "width": "fill_container",
+                          "height": 28,
+                          "fill": "#f5e1b3",
+                          "padding": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "3fRWP",
+                              "fill": "#1f2937",
+                              "content": "转速",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "fzF3C",
+                              "fill": "#6b7280",
+                              "content": "[4500 ... 7000]",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WDwJe",
+                          "name": "RowBody",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#d9d9d9",
+                          "gap": 16,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "sZYIO",
+                              "name": "Field-优先级",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "a82fh",
+                                  "fill": "#374151",
+                                  "content": "优先级",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "25TLd",
+                                  "name": "el-select",
+                                  "width": 56,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "yY7i4",
+                                      "fill": "#111827",
+                                      "content": "5",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "kih00",
+                              "name": "Field-最低阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "x2x7V",
+                                  "fill": "#374151",
+                                  "content": "最低阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "AABzQ",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "eZs0i",
+                              "name": "Field-最高阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "6AygH",
+                                  "fill": "#374151",
+                                  "content": "最高阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "J0txt",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "OcXU8",
+                              "name": "Field-目标值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "XsENa",
+                                  "fill": "#374151",
+                                  "content": "目标值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "cGGRZ",
+                                  "name": "el-select",
+                                  "width": 96,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "6z3oV",
+                                      "fill": "#111827",
+                                      "content": "最大化",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "kZR0y",
+                              "name": "Field-写入备注",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "d1o1H",
+                                  "fill": "#374151",
+                                  "content": "写入备注",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "eOHBU",
+                                  "name": "el-input",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UGNDx",
+                      "name": "Row-月燃油成本",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FRXYm",
+                          "name": "RowHeader",
+                          "width": "fill_container",
+                          "height": 28,
+                          "fill": "#f5e1b3",
+                          "padding": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "FGJ7X",
+                              "fill": "#1f2937",
+                              "content": "月燃油成本",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "3WyIq",
+                              "fill": "#6b7280",
+                              "content": "[90 ... 236]",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "3gQPX",
+                          "name": "RowBody",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#d9d9d9",
+                          "gap": 16,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "eS5cF",
+                              "name": "Field-优先级",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "nR6Au",
+                                  "fill": "#374151",
+                                  "content": "优先级",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "S7mEe",
+                                  "name": "el-select",
+                                  "width": 56,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "NE0Zy",
+                                      "fill": "#111827",
+                                      "content": "5",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "rrdOZ",
+                              "name": "Field-最低阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "7s7Hh",
+                                  "fill": "#374151",
+                                  "content": "最低阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "aQUqa",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "t8EIE",
+                              "name": "Field-最高阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "X0Nr6",
+                                  "fill": "#374151",
+                                  "content": "最高阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "PlsHJ",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "6VHBg",
+                              "name": "Field-目标值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "6OCvG",
+                                  "fill": "#374151",
+                                  "content": "目标值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "5klu7",
+                                  "name": "el-select",
+                                  "width": 96,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "QKZhr",
+                                      "fill": "#111827",
+                                      "content": "最大化",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hsgKu",
+                              "name": "Field-写入备注",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "guEjf",
+                                  "fill": "#374151",
+                                  "content": "写入备注",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Vufg5",
+                                  "name": "el-input",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "7hs9B",
+                      "name": "Row-乘客数",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "V5Cfg",
+                          "name": "RowHeader",
+                          "width": "fill_container",
+                          "height": 28,
+                          "fill": "#f5e1b3",
+                          "padding": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lx3P7",
+                              "fill": "#1f2937",
+                              "content": "乘客数",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "QiUTD",
+                              "fill": "#6b7280",
+                              "content": "[2 ... 8]",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "euE2T",
+                          "name": "RowBody",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#d9d9d9",
+                          "gap": 16,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "36Cnk",
+                              "name": "Field-优先级",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "LliVj",
+                                  "fill": "#374151",
+                                  "content": "优先级",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "QIegL",
+                                  "name": "el-select",
+                                  "width": 56,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "lNG5M",
+                                      "fill": "#111827",
+                                      "content": "5",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "uSO9k",
+                              "name": "Field-最低阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vBMck",
+                                  "fill": "#374151",
+                                  "content": "最低阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "2FJCa",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "3UQMe",
+                              "name": "Field-最高阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "9Xcz8",
+                                  "fill": "#374151",
+                                  "content": "最高阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "0yj9x",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Q3n1t",
+                              "name": "Field-目标值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "OMG4T",
+                                  "fill": "#374151",
+                                  "content": "目标值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "JnEV0",
+                                  "name": "el-select",
+                                  "width": 96,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "UiAiY",
+                                      "fill": "#111827",
+                                      "content": "最大化",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "45kZI",
+                              "name": "Field-写入备注",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "27QqC",
+                                  "fill": "#374151",
+                                  "content": "写入备注",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "gHLg8",
+                                  "name": "el-input",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AWRLe",
+                      "name": "Row-基础保修",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "rIaHr",
+                          "name": "RowHeader",
+                          "width": "fill_container",
+                          "height": 28,
+                          "fill": "#f5e1b3",
+                          "padding": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "EtLEj",
+                              "fill": "#1f2937",
+                              "content": "基础保修",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "5Axzv",
+                              "fill": "#6b7280",
+                              "content": "[3 ... 5]",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IBjML",
+                          "name": "RowBody",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#d9d9d9",
+                          "gap": 16,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "OjMdE",
+                              "name": "Field-优先级",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "EjsAn",
+                                  "fill": "#374151",
+                                  "content": "优先级",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "APL2W",
+                                  "name": "el-select",
+                                  "width": 56,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "et2fF",
+                                      "fill": "#111827",
+                                      "content": "5",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "AqS3b",
+                              "name": "Field-最低阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "s9IyH",
+                                  "fill": "#374151",
+                                  "content": "最低阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "sHsLP",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "eDdQY",
+                              "name": "Field-最高阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Ax6dF",
+                                  "fill": "#374151",
+                                  "content": "最高阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "EIQJd",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "YHAl3",
+                              "name": "Field-目标值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Fz6kz",
+                                  "fill": "#374151",
+                                  "content": "目标值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "nOkgt",
+                                  "name": "el-select",
+                                  "width": 96,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "kQTkg",
+                                      "fill": "#111827",
+                                      "content": "最大化",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "JG31L",
+                              "name": "Field-写入备注",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "NnI4N",
+                                  "fill": "#374151",
+                                  "content": "写入备注",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "stf6R",
+                                  "name": "el-input",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kJwkt",
+                      "name": "Row-传动系保修",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "VKWXn",
+                          "name": "RowHeader",
+                          "width": "fill_container",
+                          "height": 28,
+                          "fill": "#f5e1b3",
+                          "padding": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Dnr1n",
+                              "fill": "#1f2937",
+                              "content": "传动系保修",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "UQZtd",
+                              "fill": "#6b7280",
+                              "content": "[4 ... 10]",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "1EHBC",
+                          "name": "RowBody",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#d9d9d9",
+                          "gap": 16,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "oIrnK",
+                              "name": "Field-优先级",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "TpW4r",
+                                  "fill": "#374151",
+                                  "content": "优先级",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "kilhd",
+                                  "name": "el-select",
+                                  "width": 56,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "dUy30",
+                                      "fill": "#111827",
+                                      "content": "5",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "W1kk3",
+                              "name": "Field-最低阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "sGc3O",
+                                  "fill": "#374151",
+                                  "content": "最低阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "2h1TA",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "kc75v",
+                              "name": "Field-最高阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "XggDE",
+                                  "fill": "#374151",
+                                  "content": "最高阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "zK9tN",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Irz8W",
+                              "name": "Field-目标值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "rDQci",
+                                  "fill": "#374151",
+                                  "content": "目标值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "uGnoZ",
+                                  "name": "el-select",
+                                  "width": 96,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "G1kDz",
+                                      "fill": "#111827",
+                                      "content": "最大化",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "I5Tw0",
+                              "name": "Field-写入备注",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "kQSul",
+                                  "fill": "#374151",
+                                  "content": "写入备注",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "4wvd1",
+                                  "name": "el-input",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "4aheg",
+                      "name": "Row-货物容量",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ubSkJ",
+                          "name": "RowHeader",
+                          "width": "fill_container",
+                          "height": 28,
+                          "fill": "#f5e1b3",
+                          "padding": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "wO7IL",
+                              "fill": "#1f2937",
+                              "content": "货物容量",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "F5Gy6",
+                              "fill": "#6b7280",
+                              "content": "[0 ... 39.1]",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "0Rkln",
+                          "name": "RowBody",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#d9d9d9",
+                          "gap": 16,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "TkTwU",
+                              "name": "Field-优先级",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "TDe6z",
+                                  "fill": "#374151",
+                                  "content": "优先级",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "DXknn",
+                                  "name": "el-select",
+                                  "width": 56,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "UOgcJ",
+                                      "fill": "#111827",
+                                      "content": "5",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "9TPJc",
+                              "name": "Field-最低阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "CpH6V",
+                                  "fill": "#374151",
+                                  "content": "最低阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "UpyAZ",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "f1Sq6",
+                              "name": "Field-最高阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ZVhX7",
+                                  "fill": "#374151",
+                                  "content": "最高阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Vhu38",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "DN2n5",
+                              "name": "Field-目标值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "u8DoC",
+                                  "fill": "#374151",
+                                  "content": "目标值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "eMMtp",
+                                  "name": "el-select",
+                                  "width": 96,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "fWb4j",
+                                      "fill": "#111827",
+                                      "content": "最大化",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "03p5J",
+                              "name": "Field-写入备注",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Ya7Oi",
+                                  "fill": "#374151",
+                                  "content": "写入备注",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Dvngq",
+                                  "name": "el-input",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "84qCR",
+                      "name": "Row-可靠性评级",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Wilxd",
+                          "name": "RowHeader",
+                          "width": "fill_container",
+                          "height": 28,
+                          "fill": "#f5e1b3",
+                          "padding": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "DCq9f",
+                              "fill": "#1f2937",
+                              "content": "可靠性评级",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Vpt55",
+                              "fill": "#6b7280",
+                              "content": "[1 ... 5]",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ipbzZ",
+                          "name": "RowBody",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#d9d9d9",
+                          "gap": 16,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "oKbGh",
+                              "name": "Field-优先级",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "PnVXc",
+                                  "fill": "#374151",
+                                  "content": "优先级",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ty5qx",
+                                  "name": "el-select",
+                                  "width": 56,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "BsZ5R",
+                                      "fill": "#111827",
+                                      "content": "5",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "rPIdU",
+                              "name": "Field-最低阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "XCPNm",
+                                  "fill": "#374151",
+                                  "content": "最低阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ENS90",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "vqFq3",
+                              "name": "Field-最高阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "BMJrV",
+                                  "fill": "#374151",
+                                  "content": "最高阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "h4WQU",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ecPoj",
+                              "name": "Field-目标值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "mAwqJ",
+                                  "fill": "#374151",
+                                  "content": "目标值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "C0rrj",
+                                  "name": "el-select",
+                                  "width": 96,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "ueFld",
+                                      "fill": "#111827",
+                                      "content": "最大化",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "bd9jn",
+                              "name": "Field-写入备注",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "GJpjs",
+                                  "fill": "#374151",
+                                  "content": "写入备注",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "2V4ss",
+                                  "name": "el-input",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cbqvv",
+                      "name": "Row-性能评级",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "4O8vC",
+                          "name": "RowHeader",
+                          "width": "fill_container",
+                          "height": 28,
+                          "fill": "#f5e1b3",
+                          "padding": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mlE5r",
+                              "fill": "#1f2937",
+                              "content": "性能评级",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "pGkBS",
+                              "fill": "#6b7280",
+                              "content": "[1 ... 5]",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "I6KK7",
+                          "name": "RowBody",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#d9d9d9",
+                          "gap": 16,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ZjH5s",
+                              "name": "Field-优先级",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "yl3zE",
+                                  "fill": "#374151",
+                                  "content": "优先级",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "vZ7Vy",
+                                  "name": "el-select",
+                                  "width": 56,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "ZP00H",
+                                      "fill": "#111827",
+                                      "content": "5",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "tfhwQ",
+                              "name": "Field-最低阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "k7qjj",
+                                  "fill": "#374151",
+                                  "content": "最低阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "wOcRp",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "897hw",
+                              "name": "Field-最高阈值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "2JOdn",
+                                  "fill": "#374151",
+                                  "content": "最高阈值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "aHIDC",
+                                  "name": "el-input",
+                                  "width": 80,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "pfkwc",
+                              "name": "Field-目标值",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "lPezz",
+                                  "fill": "#374151",
+                                  "content": "目标值",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "LEMEI",
+                                  "name": "el-select",
+                                  "width": 96,
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "wnQNF",
+                                      "fill": "#111827",
+                                      "content": "最大化",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ah9wf",
+                              "name": "Field-写入备注",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "w8Zv4",
+                                  "fill": "#374151",
+                                  "content": "写入备注",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "E8WJJ",
+                                  "name": "el-input",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "fill": "#ffffff",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#c4c4c4"
+                                  },
+                                  "padding": 6,
+                                  "alignItems": "center"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ccV3K",
+                  "name": "TableScroll",
+                  "width": 8,
+                  "height": "fill_container",
+                  "fill": "#eef0f3",
+                  "cornerRadius": 4,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wclG9",
+                      "name": "Thumb",
+                      "width": "fill_container",
+                      "height": 120,
+                      "fill": "#c4c4c4",
+                      "cornerRadius": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "0b0oD",
+              "name": "TableFooter",
+              "width": "fill_container",
+              "gap": 16,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Rct6f",
+                  "name": "Footer/Buttons",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hBh42",
+                      "name": "el-button-展开全部",
+                      "height": 28,
+                      "fill": "#ffffff",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#d1d5db"
+                      },
+                      "padding": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "00Abe",
+                          "fill": "#374151",
+                          "content": "展开全部",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kHTT0",
+                      "name": "el-button-折叠全部",
+                      "height": 28,
+                      "fill": "#ffffff",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#d1d5db"
+                      },
+                      "padding": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "L0Bgv",
+                          "fill": "#374151",
+                          "content": "折叠全部",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Dcm1H",
+                  "name": "Footer/Legend",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QPJcO",
+                      "name": "Legend-必须",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "fGebc",
+                          "name": "Dot",
+                          "width": 8,
+                          "height": 8,
+                          "fill": "#ef4444",
+                          "cornerRadius": 4
+                        },
+                        {
+                          "type": "text",
+                          "id": "ws1Wl",
+                          "fill": "#374151",
+                          "content": "必须",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "CnjnQ",
+                      "fill": "#374151",
+                      "content": "优先级1（最重要）",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ui1N3",
+                      "fill": "#374151",
+                      "content": "优先级5（最不重要）",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

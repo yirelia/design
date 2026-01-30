@@ -1,0 +1,2773 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "n248",
+      "x": 0,
+      "y": 0,
+      "name": "layout",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "#f5f7fa",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "n12",
+          "name": "el-header",
+          "width": "fill_container",
+          "height": 46,
+          "fill": "#1f76cb",
+          "gap": 16,
+          "padding": 16,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "n4",
+              "name": "Header Left",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "n2",
+                  "name": "Logo Mark",
+                  "width": 28,
+                  "height": 28,
+                  "fill": "#ffffff",
+                  "cornerRadius": 6,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n1",
+                      "name": "Logo",
+                      "fill": "#1f76cb",
+                      "content": "EP",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "n11",
+              "name": "Header Right",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "n6",
+                  "name": "el-input",
+                  "width": 240,
+                  "height": 28,
+                  "fill": "#ffffff",
+                  "cornerRadius": 6,
+                  "gap": 8,
+                  "padding": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n5",
+                      "name": "Placeholder",
+                      "fill": "#9ca3af",
+                      "content": "Search...",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "n10",
+                  "name": "User Info",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "n8",
+                      "name": "el-avatar",
+                      "width": 28,
+                      "height": 28,
+                      "fill": "#ffffff",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "n7",
+                          "name": "Avatar",
+                          "fill": "#1f76cb",
+                          "content": "A",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "n9",
+                      "name": "User",
+                      "fill": "#ffffff",
+                      "content": "Admin",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "n247",
+          "name": "content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "#f5f7fa",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "9i5ZR",
+              "name": "el-steps",
+              "width": "fill_container",
+              "height": 80,
+              "fill": "#ffffff",
+              "cornerRadius": 8,
+              "padding": 24,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "x4KT9",
+                  "name": "Step 1",
+                  "height": 60,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "t2bBJ",
+                      "name": "Step 1 Icon",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#c0c4cc",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LnYOm",
+                          "name": "Step 1 Icon Text",
+                          "fill": "#ffffff",
+                          "content": "1",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Byslc",
+                      "name": "Step 1 Label",
+                      "fill": "#606266",
+                      "content": "预览",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uzrEH",
+                  "name": "Line 1-2",
+                  "width": "fill_container",
+                  "height": 2,
+                  "fill": "#e4e7ed",
+                  "layout": "none"
+                },
+                {
+                  "type": "frame",
+                  "id": "AGIXc",
+                  "name": "Step 2",
+                  "height": 60,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GcQv5",
+                      "name": "Step 2 Icon",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#c0c4cc",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DrvyJ",
+                          "name": "Step 2 Icon Text",
+                          "fill": "#ffffff",
+                          "content": "2",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "nIizS",
+                      "name": "Step 2 Label",
+                      "fill": "#606266",
+                      "content": "定义",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mY7Y6",
+                  "name": "Line 2-3",
+                  "width": "fill_container",
+                  "height": 2,
+                  "fill": "#e4e7ed",
+                  "layout": "none"
+                },
+                {
+                  "type": "frame",
+                  "id": "Vm8gX",
+                  "name": "Step 3",
+                  "height": 60,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wa2Yg",
+                      "name": "Step 3 Icon",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#c0c4cc",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EK2f9",
+                          "name": "Step 3 Icon Text",
+                          "fill": "#ffffff",
+                          "content": "3",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "D2YAp",
+                      "name": "Step 3 Label",
+                      "fill": "#606266",
+                      "content": "探索",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dZmn5",
+                  "name": "Line 3-4",
+                  "width": "fill_container",
+                  "height": 2,
+                  "fill": "#e4e7ed",
+                  "layout": "none"
+                },
+                {
+                  "type": "frame",
+                  "id": "28Nz6",
+                  "name": "Step 4",
+                  "height": 60,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NK8ht",
+                      "name": "Step 4 Icon",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#c0c4cc",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "B95T6",
+                          "name": "Step 4 Icon Text",
+                          "fill": "#ffffff",
+                          "content": "4",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "6JeH8",
+                      "name": "Step 4 Label",
+                      "fill": "#606266",
+                      "content": "预测",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "T4nix",
+                  "name": "Line 4-5",
+                  "width": "fill_container",
+                  "height": 2,
+                  "fill": "#e4e7ed",
+                  "layout": "none"
+                },
+                {
+                  "type": "frame",
+                  "id": "MlG1O",
+                  "name": "Step 5",
+                  "height": 60,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QBfGg",
+                      "name": "Step 5 Icon",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#c0c4cc",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "K91rR",
+                          "name": "Step 5 Icon Text",
+                          "fill": "#ffffff",
+                          "content": "5",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ltWjG",
+                      "name": "Step 5 Label",
+                      "fill": "#606266",
+                      "content": "对比",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "3frkf",
+                  "name": "Line 5-6",
+                  "width": "fill_container",
+                  "height": 2,
+                  "fill": "#1f76cb",
+                  "layout": "none"
+                },
+                {
+                  "type": "frame",
+                  "id": "IMjV2",
+                  "name": "Step 6",
+                  "height": 60,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "w64yr",
+                      "name": "Step 6 Icon",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#1f76cb",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "f7Tds",
+                          "name": "Step 6 Icon Text",
+                          "fill": "#ffffff",
+                          "content": "6",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "e8A4g",
+                      "name": "Step 6 Label",
+                      "fill": "#1f76cb",
+                      "content": "协作",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZPpum",
+                  "name": "Line 6-7",
+                  "width": "fill_container",
+                  "height": 2,
+                  "fill": "#e4e7ed",
+                  "layout": "none"
+                },
+                {
+                  "type": "frame",
+                  "id": "KA8DJ",
+                  "name": "Step 7",
+                  "height": 60,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zqAyv",
+                      "name": "Step 7 Icon",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#c0c4cc",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "QoUwC",
+                          "name": "Step 7 Icon Text",
+                          "fill": "#ffffff",
+                          "content": "7",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "17Oyb",
+                      "name": "Step 7 Label",
+                      "fill": "#606266",
+                      "content": "推荐",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DJLuG",
+              "name": "Step Content Container",
+              "width": "fill_container",
+              "height": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vkJjd",
+                  "name": "Sidebar",
+                  "width": 384,
+                  "height": "fill_container",
+                  "fill": "#ffffff",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "owELj",
+                      "name": "Parameter Weight Section",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "sO3I3",
+                          "name": "Parameter Weight Header",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Dj94E",
+                              "name": "Parameter Weight Title",
+                              "fill": "#1f2937",
+                              "content": "参数权重",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "9GpNn",
+                              "name": "Parameter Weight Icons",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "cCRXQ",
+                                  "name": "Search Icon",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "search",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#6b7280"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "wt8Yx",
+                                  "name": "Help Icon",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "info",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#6b7280"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Jh35m",
+                          "name": "City MPG Slider",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ioi3i",
+                              "name": "City MPG Label",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "e306g",
+                                  "name": "City MPG Text",
+                                  "fill": "#374151",
+                                  "content": "城市MPG",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "K5Itr",
+                                  "name": "City MPG Priority",
+                                  "fill": "#6b7280",
+                                  "content": "优先级 1",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "dxEo5",
+                              "name": "City MPG Slider Track",
+                              "width": "fill_container",
+                              "height": 8,
+                              "fill": "#e5e7eb",
+                              "cornerRadius": 4,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "n7o1G",
+                                  "name": "City MPG Slider Fill",
+                                  "width": "fit_content(0)",
+                                  "height": "fill_container",
+                                  "fill": "#1f76cb",
+                                  "cornerRadius": 4
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "cdez8",
+                                  "name": "City MPG Slider Thumb",
+                                  "width": 16,
+                                  "height": 16,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 8,
+                                  "stroke": {
+                                    "align": "center",
+                                    "thickness": 2,
+                                    "fill": "#1f76cb"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "DPVBA",
+                              "name": "City MPG Value",
+                              "fill": "#6b7280",
+                              "content": "权重: 3.52",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "7n3yZ",
+                          "name": "NumofPassengers Slider",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "IPIxY",
+                              "name": "NumofPassengers Label",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "X1rEA",
+                                  "name": "NumofPassengers Text",
+                                  "fill": "#374151",
+                                  "content": "乘客数量",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "9osHS",
+                                  "name": "NumofPassengers Priority",
+                                  "fill": "#6b7280",
+                                  "content": "优先级 2",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ltRR3",
+                              "name": "NumofPassengers Slider Track",
+                              "width": "fill_container",
+                              "height": 8,
+                              "fill": "#e5e7eb",
+                              "cornerRadius": 4,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "2bVDG",
+                                  "name": "NumofPassengers Slider Fill",
+                                  "width": "fit_content(0)",
+                                  "height": "fill_container",
+                                  "fill": "#1f76cb",
+                                  "cornerRadius": 4
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "UcaOT",
+                                  "name": "NumofPassengers Slider Thumb",
+                                  "width": 16,
+                                  "height": 16,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 8,
+                                  "stroke": {
+                                    "align": "center",
+                                    "thickness": 2,
+                                    "fill": "#1f76cb"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "LDHrG",
+                              "name": "NumofPassengers Value",
+                              "fill": "#6b7280",
+                              "content": "权重: 2.36",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "htgQ5",
+                          "name": "CargoCapacity Slider",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "o2yCR",
+                              "name": "CargoCapacity Label",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "gIDYP",
+                                  "name": "CargoCapacity Text",
+                                  "fill": "#374151",
+                                  "content": "载货容量",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "zSe8R",
+                                  "name": "CargoCapacity Priority",
+                                  "fill": "#6b7280",
+                                  "content": "优先级 3",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "jdYgg",
+                              "name": "CargoCapacity Slider Track",
+                              "width": "fill_container",
+                              "height": 8,
+                              "fill": "#e5e7eb",
+                              "cornerRadius": 4,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "7jNK3",
+                                  "name": "CargoCapacity Slider Fill",
+                                  "width": "fit_content(0)",
+                                  "height": "fill_container",
+                                  "fill": "#1f76cb",
+                                  "cornerRadius": 4
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "V29pm",
+                                  "name": "CargoCapacity Slider Thumb",
+                                  "width": 16,
+                                  "height": 16,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 8,
+                                  "stroke": {
+                                    "align": "center",
+                                    "thickness": 2,
+                                    "fill": "#1f76cb"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "Wqmyv",
+                              "name": "CargoCapacity Value",
+                              "fill": "#6b7280",
+                              "content": "权重: 3.00",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "uRuuE",
+                          "name": "ComfortRating Slider",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "wyrcS",
+                              "name": "ComfortRating Label",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "SOTGO",
+                                  "name": "ComfortRating Text",
+                                  "fill": "#374151",
+                                  "content": "舒适度评级",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "kX7CX",
+                                  "name": "ComfortRating Priority",
+                                  "fill": "#6b7280",
+                                  "content": "优先级 4",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "y0dEp",
+                              "name": "ComfortRating Slider Track",
+                              "width": "fill_container",
+                              "height": 8,
+                              "fill": "#e5e7eb",
+                              "cornerRadius": 4,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "6Tosd",
+                                  "name": "ComfortRating Slider Fill",
+                                  "width": "fit_content(0)",
+                                  "height": "fill_container",
+                                  "fill": "#1f76cb",
+                                  "cornerRadius": 4
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "VFKr5",
+                                  "name": "ComfortRating Slider Thumb",
+                                  "width": 16,
+                                  "height": 16,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 8,
+                                  "stroke": {
+                                    "align": "center",
+                                    "thickness": 2,
+                                    "fill": "#1f76cb"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "ek7gz",
+                              "name": "ComfortRating Value",
+                              "fill": "#6b7280",
+                              "content": "权重: 2",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "myfGG",
+                      "name": "Ranking Method Section",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eusAm",
+                          "name": "Ranking Method Title",
+                          "fill": "#1f2937",
+                          "content": "排名方法",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "x2Luu",
+                          "name": "el-select",
+                          "width": "fill_container",
+                          "height": 32,
+                          "fill": "#ffffff",
+                          "cornerRadius": 6,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#dcdfe6"
+                          },
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "wKme2",
+                              "name": "Ranking Method Text",
+                              "fill": "#606266",
+                              "content": "加权求和",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "RLlCm",
+                              "name": "Dropdown Arrow",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "chevron-down",
+                              "iconFontFamily": "lucide",
+                              "fill": "#909399"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ylMmD",
+                      "name": "Parameters by Group Section",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qq4DV",
+                          "name": "Parameters by Group Title",
+                          "fill": "#1f2937",
+                          "content": "按组分参数",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zKA7j",
+                          "name": "el-checkbox",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "njInV",
+                              "name": "Checkbox Box",
+                              "width": 16,
+                              "height": 16,
+                              "fill": "#1f76cb",
+                              "cornerRadius": 2,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "VgJb1",
+                                  "name": "Check Icon",
+                                  "width": 12,
+                                  "height": 12,
+                                  "iconFontName": "check",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#ffffff"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "4WL5I",
+                              "name": "Cost Label",
+                              "fill": "#606266",
+                              "content": "成本",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8ZuhZ",
+                      "name": "Parameter Priority Section",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "2YRz9",
+                          "name": "Parameter Priority Title",
+                          "fill": "#1f2937",
+                          "content": "参数优先级",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "D4ret",
+                          "name": "Parameter Priority Checkboxes",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "mqZ4q",
+                              "name": "Priority 1 Checkbox",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "Auf5e",
+                                  "name": "Priority 1 Box",
+                                  "width": 16,
+                                  "height": 16,
+                                  "fill": "#1f76cb",
+                                  "cornerRadius": 2,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "0fzci",
+                                      "name": "Priority 1 Check",
+                                      "width": 12,
+                                      "height": 12,
+                                      "iconFontName": "check",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#ffffff"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "miqFG",
+                                  "name": "Priority 1 Label",
+                                  "fill": "#606266",
+                                  "content": "1",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "WIvhl",
+                              "name": "Priority 2 Checkbox",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "90j6E",
+                                  "name": "Priority 2 Box",
+                                  "width": 16,
+                                  "height": 16,
+                                  "fill": "#1f76cb",
+                                  "cornerRadius": 2,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "cseXw",
+                                      "name": "Priority 2 Check",
+                                      "width": 12,
+                                      "height": 12,
+                                      "iconFontName": "check",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#ffffff"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "EmssT",
+                                  "name": "Priority 2 Label",
+                                  "fill": "#606266",
+                                  "content": "2",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "taj4C",
+                              "name": "Priority 3 Checkbox",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "60cVM",
+                                  "name": "Priority 3 Box",
+                                  "width": 16,
+                                  "height": 16,
+                                  "fill": "#1f76cb",
+                                  "cornerRadius": 2,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "csHlE",
+                                      "name": "Priority 3 Check",
+                                      "width": 12,
+                                      "height": 12,
+                                      "iconFontName": "check",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#ffffff"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "j1884",
+                                  "name": "Priority 3 Label",
+                                  "fill": "#606266",
+                                  "content": "3",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "wjkSv",
+                              "name": "Priority 4 Checkbox",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "QM39Y",
+                                  "name": "Priority 4 Box",
+                                  "width": 16,
+                                  "height": 16,
+                                  "fill": "#1f76cb",
+                                  "cornerRadius": 2,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "e1Tk1",
+                                      "name": "Priority 4 Check",
+                                      "width": 12,
+                                      "height": 12,
+                                      "iconFontName": "check",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#ffffff"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Ah1k1",
+                                  "name": "Priority 4 Label",
+                                  "fill": "#606266",
+                                  "content": "4",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "xoYRZ",
+                              "name": "Priority 5 Checkbox",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "AIpyQ",
+                                  "name": "Priority 5 Box",
+                                  "width": 16,
+                                  "height": 16,
+                                  "fill": "#1f76cb",
+                                  "cornerRadius": 2,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "Nn0QV",
+                                      "name": "Priority 5 Check",
+                                      "width": 12,
+                                      "height": 12,
+                                      "iconFontName": "check",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#ffffff"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "RXDo1",
+                                  "name": "Priority 5 Label",
+                                  "fill": "#606266",
+                                  "content": "5",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hdC9D",
+                              "name": "Priority MH Checkbox",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "HrgoB",
+                                  "name": "Priority MH Box",
+                                  "width": 16,
+                                  "height": 16,
+                                  "fill": "#1f76cb",
+                                  "cornerRadius": 2,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "O4lft",
+                                      "name": "Priority MH Check",
+                                      "width": 12,
+                                      "height": 12,
+                                      "iconFontName": "check",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#ffffff"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "50Tna",
+                                  "name": "Priority MH Label",
+                                  "fill": "#606266",
+                                  "content": "MH",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "w5Xdq",
+                  "name": "Main Content",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#f5f7fa",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HEb51",
+                      "name": "Top Charts Section",
+                      "width": "fill_container",
+                      "height": 400,
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "muWeM",
+                          "name": "Rank & Score Breakdown Chart",
+                          "width": "fill_container",
+                          "height": 380,
+                          "fill": "#ffffff",
+                          "cornerRadius": 8,
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 24,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "vTHe5",
+                              "name": "Rank & Score Breakdown Title",
+                              "fill": "#1f2937",
+                              "content": "排名与分数分解",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "D3HTX",
+                              "name": "Chart Area",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "layout": "vertical",
+                              "gap": 16,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "8bCZg",
+                                  "name": "Chart Bars",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 12,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "sR12H",
+                                      "name": "Alt. 21 Bar",
+                                      "width": "fill_container",
+                                      "height": 40,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "Ab1Vg",
+                                          "name": "Alt. 21 Label",
+                                          "width": 80,
+                                          "gap": 8,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "epUJH",
+                                              "name": "Alt. 21 Rank",
+                                              "fill": "#1f2937",
+                                              "content": "排名 1",
+                                              "fontFamily": "Inter",
+                                              "fontSize": 12,
+                                              "fontWeight": "600"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "1y0Zi",
+                                              "name": "Alt. 21 Name",
+                                              "fill": "#6b7280",
+                                              "content": "方案 21",
+                                              "fontFamily": "Inter",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "F8Yuk",
+                                          "name": "Alt. 21 Bar Container",
+                                          "width": "fill_container",
+                                          "height": "fill_container",
+                                          "children": [
+                                            {
+                                              "type": "frame",
+                                              "id": "vh3QF",
+                                              "name": "Alt. 21 City MPG",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#1e40af"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "HVvU4",
+                                              "name": "Alt. 21 NumofPassengers",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#3b82f6"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "wB63q",
+                                              "name": "Alt. 21 CargoCapacity",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#60a5fa"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "oaa9R",
+                                              "name": "Alt. 21 ComfortRating",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#93c5fd"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "QC7px",
+                                              "name": "Alt. 21 Cost",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#f97316"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "g5QfL",
+                                          "name": "Alt. 21 Score",
+                                          "fill": "#1f2937",
+                                          "content": "分数: 100",
+                                          "fontFamily": "Inter",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "vCTcQ",
+                                      "name": "Alt. 22 Bar",
+                                      "width": "fill_container",
+                                      "height": 40,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "xBez6",
+                                          "name": "Alt. 22 Label",
+                                          "width": 80,
+                                          "gap": 8,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "m68A2",
+                                              "name": "Alt. 22 Rank",
+                                              "fill": "#1f2937",
+                                              "content": "排名 3",
+                                              "fontFamily": "Inter",
+                                              "fontSize": 12,
+                                              "fontWeight": "600"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "9JuLS",
+                                              "name": "Alt. 22 Name",
+                                              "fill": "#6b7280",
+                                              "content": "方案 22",
+                                              "fontFamily": "Inter",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "RtJlV",
+                                          "name": "Alt. 22 Bar Container",
+                                          "width": "fill_container",
+                                          "height": "fill_container",
+                                          "children": [
+                                            {
+                                              "type": "frame",
+                                              "id": "XCQzW",
+                                              "name": "Alt. 22 City MPG",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#1e40af"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "wVWyP",
+                                              "name": "Alt. 22 NumofPassengers",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#3b82f6"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "1awda",
+                                              "name": "Alt. 22 CargoCapacity",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#60a5fa"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "wq8in",
+                                              "name": "Alt. 22 ComfortRating",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#93c5fd"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "2UTLe",
+                                              "name": "Alt. 22 Cost",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#f97316"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "VoARH",
+                                          "name": "Alt. 22 Score",
+                                          "fill": "#1f2937",
+                                          "content": "分数: 92.0508",
+                                          "fontFamily": "Inter",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "XEs8p",
+                                      "name": "Alt. 17 Bar",
+                                      "width": "fill_container",
+                                      "height": 40,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "YsQu1",
+                                          "name": "Alt. 17 Label",
+                                          "width": 80,
+                                          "gap": 8,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "tiKio",
+                                              "name": "Alt. 17 Rank",
+                                              "fill": "#1f2937",
+                                              "content": "排名 2",
+                                              "fontFamily": "Inter",
+                                              "fontSize": 12,
+                                              "fontWeight": "600"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "dCLFQ",
+                                              "name": "Alt. 17 Name",
+                                              "fill": "#6b7280",
+                                              "content": "方案 17",
+                                              "fontFamily": "Inter",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "B5fLI",
+                                          "name": "Alt. 17 Bar Container",
+                                          "width": "fill_container",
+                                          "height": "fill_container",
+                                          "children": [
+                                            {
+                                              "type": "frame",
+                                              "id": "tGBee",
+                                              "name": "Alt. 17 City MPG",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#1e40af"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "sKh0v",
+                                              "name": "Alt. 17 NumofPassengers",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#3b82f6"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "DMS8F",
+                                              "name": "Alt. 17 CargoCapacity",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#60a5fa"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "xTcNa",
+                                              "name": "Alt. 17 ComfortRating",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#93c5fd"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "fSLku",
+                                              "name": "Alt. 17 Cost",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#f97316"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "Ee4af",
+                                          "name": "Alt. 17 Score",
+                                          "fill": "#1f2937",
+                                          "content": "分数: 95.2835",
+                                          "fontFamily": "Inter",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "AIIOW",
+                                      "name": "Alt. 18 Bar",
+                                      "width": "fill_container",
+                                      "height": 40,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "Qcodf",
+                                          "name": "Alt. 18 Label",
+                                          "width": 80,
+                                          "gap": 8,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "Mlvz5",
+                                              "name": "Alt. 18 Rank",
+                                              "fill": "#1f2937",
+                                              "content": "排名 4",
+                                              "fontFamily": "Inter",
+                                              "fontSize": 12,
+                                              "fontWeight": "600"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "qe1gD",
+                                              "name": "Alt. 18 Name",
+                                              "fill": "#6b7280",
+                                              "content": "方案 18",
+                                              "fontFamily": "Inter",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "OhOdA",
+                                          "name": "Alt. 18 Bar Container",
+                                          "width": "fill_container",
+                                          "height": "fill_container",
+                                          "children": [
+                                            {
+                                              "type": "frame",
+                                              "id": "K5wjk",
+                                              "name": "Alt. 18 City MPG",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#1e40af"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "notE1",
+                                              "name": "Alt. 18 NumofPassengers",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#3b82f6"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "t0Kji",
+                                              "name": "Alt. 18 CargoCapacity",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#60a5fa"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "rsN4r",
+                                              "name": "Alt. 18 ComfortRating",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#93c5fd"
+                                            },
+                                            {
+                                              "type": "frame",
+                                              "id": "WTxzR",
+                                              "name": "Alt. 18 Cost",
+                                              "width": "fit_content(0)",
+                                              "height": "fill_container",
+                                              "fill": "#f97316"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "3bYJA",
+                                          "name": "Alt. 18 Score",
+                                          "fill": "#1f2937",
+                                          "content": "分数: 88.4986",
+                                          "fontFamily": "Inter",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "1L1j4",
+                                  "name": "Chart Legend",
+                                  "width": "fill_container",
+                                  "gap": 16,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "1RsYl",
+                                      "name": "Legend City MPG",
+                                      "gap": 8,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "PMhN3",
+                                          "name": "Legend City MPG Color",
+                                          "width": 16,
+                                          "height": 16,
+                                          "fill": "#1e40af"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "RuCI3",
+                                          "name": "Legend City MPG Text",
+                                          "fill": "#6b7280",
+                                          "content": "城市MPG",
+                                          "fontFamily": "Inter",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "pM2bW",
+                                      "name": "Legend NumofPassengers",
+                                      "gap": 8,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "SqYyE",
+                                          "name": "Legend NumofPassengers Color",
+                                          "width": 16,
+                                          "height": 16,
+                                          "fill": "#3b82f6"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "ArgAB",
+                                          "name": "Legend NumofPassengers Text",
+                                          "fill": "#6b7280",
+                                          "content": "乘客数量",
+                                          "fontFamily": "Inter",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "n86Bh",
+                                      "name": "Legend CargoCapacity",
+                                      "gap": 8,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "Znfva",
+                                          "name": "Legend CargoCapacity Color",
+                                          "width": 16,
+                                          "height": 16,
+                                          "fill": "#60a5fa"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "nb51d",
+                                          "name": "Legend CargoCapacity Text",
+                                          "fill": "#6b7280",
+                                          "content": "载货容量",
+                                          "fontFamily": "Inter",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "sMLFs",
+                                      "name": "Legend ComfortRating",
+                                      "gap": 8,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "8U8JQ",
+                                          "name": "Legend ComfortRating Color",
+                                          "width": 16,
+                                          "height": 16,
+                                          "fill": "#93c5fd"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "P6eYL",
+                                          "name": "Legend ComfortRating Text",
+                                          "fill": "#6b7280",
+                                          "content": "舒适度评级",
+                                          "fontFamily": "Inter",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "F3V6Q",
+                                      "name": "Legend Cost",
+                                      "gap": 8,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "lwTSp",
+                                          "name": "Legend Cost Color",
+                                          "width": 16,
+                                          "height": 16,
+                                          "fill": "#f97316"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "90oo0",
+                                          "name": "Legend Cost Text",
+                                          "fill": "#6b7280",
+                                          "content": "成本",
+                                          "fontFamily": "Inter",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "I5AHJ",
+                          "name": "Aggregated Weight Chart",
+                          "width": 400,
+                          "height": 380,
+                          "fill": "#ffffff",
+                          "cornerRadius": 8,
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 24,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "PRhR7",
+                              "name": "Aggregated Weight Title",
+                              "fill": "#1f2937",
+                              "content": "聚合权重",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "AWWas",
+                              "name": "Aggregated Weight Chart Area",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "layout": "vertical",
+                              "gap": 16,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "50cNg",
+                                  "name": "Aggregated Weight Center",
+                                  "width": 120,
+                                  "height": 120,
+                                  "fill": "#f5f7fa",
+                                  "cornerRadius": 9999,
+                                  "layout": "vertical",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "AzR9f",
+                                      "name": "Aggregated Weight Center Text",
+                                      "fill": "#1f2937",
+                                      "content": "100.0%",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "F8iHA",
+                                  "name": "Radar Labels",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "a9xP2",
+                                      "x": 50,
+                                      "y": 20,
+                                      "name": "True5YrCost Label",
+                                      "fill": "#6b7280",
+                                      "content": "5年真实拥有成本: 7.6%",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "KcAog",
+                                      "x": 200,
+                                      "y": 30,
+                                      "name": "City MPG Label",
+                                      "fill": "#6b7280",
+                                      "content": "城市MPG: 26.7%",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "8qHSs",
+                                      "x": 280,
+                                      "y": 120,
+                                      "name": "NumofPassengers Label",
+                                      "fill": "#6b7280",
+                                      "content": "乘客数量: 17.9%",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "M3oog",
+                                      "x": 200,
+                                      "y": 220,
+                                      "name": "CargoCapacity Label",
+                                      "fill": "#6b7280",
+                                      "content": "载货容量: 32.7%",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "uPBE3",
+                                      "x": 50,
+                                      "y": 220,
+                                      "name": "ComfortRating Label",
+                                      "fill": "#6b7280",
+                                      "content": "舒适度评级: 15.2%",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BgHbq",
+                      "name": "Car Alternatives Section",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tl1EW",
+                          "name": "Car Alternatives Title",
+                          "fill": "#1f2937",
+                          "content": "案例名称",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "76vtD",
+                          "name": "Car Alternatives Row",
+                          "width": "fill_container",
+                          "gap": 24,
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "FHhgk",
+                              "name": "Alt. 21 Card",
+                              "width": 200,
+                              "height": 250,
+                              "fill": "#ffffff",
+                              "cornerRadius": 8,
+                              "layout": "vertical",
+                              "gap": 12,
+                              "padding": 16,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "9eHIA",
+                                  "name": "Alt. 21 Image",
+                                  "width": "fill_container",
+                                  "height": 120,
+                                  "fill": "#e5e7eb",
+                                  "cornerRadius": 4
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "R5CSE",
+                                  "name": "Alt. 21 Title",
+                                  "fill": "#1f2937",
+                                  "content": "方案 21",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "4nkBV",
+                                  "name": "Alt. 21 Actions",
+                                  "width": "fill_container",
+                                  "gap": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "sUhUQ",
+                                      "name": "Alt. 21 Thumbs Up",
+                                      "width": 20,
+                                      "height": 20,
+                                      "iconFontName": "thumbs-up",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#6b7280"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "hNVZP",
+                                      "name": "Alt. 21 Thumbs Down",
+                                      "width": 20,
+                                      "height": 20,
+                                      "iconFontName": "thumbs-down",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#6b7280"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "3Oc9G",
+                                      "name": "Alt. 21 Medal",
+                                      "width": 20,
+                                      "height": 20,
+                                      "iconFontName": "award",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#6b7280"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "64CKx",
+                              "name": "Alt. 22 Card",
+                              "width": 200,
+                              "height": 250,
+                              "fill": "#ffffff",
+                              "cornerRadius": 8,
+                              "layout": "vertical",
+                              "gap": 12,
+                              "padding": 16,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "wRiBN",
+                                  "name": "Alt. 22 Image",
+                                  "width": "fill_container",
+                                  "height": 120,
+                                  "fill": "#e5e7eb",
+                                  "cornerRadius": 4
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "U5YjQ",
+                                  "name": "Alt. 22 Title",
+                                  "fill": "#1f2937",
+                                  "content": "方案 22",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "X7YJq",
+                                  "name": "Alt. 22 Actions",
+                                  "width": "fill_container",
+                                  "gap": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "gXszl",
+                                      "name": "Alt. 22 Thumbs Up",
+                                      "width": 20,
+                                      "height": 20,
+                                      "iconFontName": "thumbs-up",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#6b7280"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "ULHLV",
+                                      "name": "Alt. 22 Thumbs Down",
+                                      "width": 20,
+                                      "height": 20,
+                                      "iconFontName": "thumbs-down",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#6b7280"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "5AKPf",
+                                      "name": "Alt. 22 Medal",
+                                      "width": 20,
+                                      "height": 20,
+                                      "iconFontName": "award",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#6b7280"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "IjxT3",
+                              "name": "Alt. 17 Card",
+                              "width": 200,
+                              "height": 250,
+                              "fill": "#ffffff",
+                              "cornerRadius": 8,
+                              "layout": "vertical",
+                              "gap": 12,
+                              "padding": 16,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "9rNDL",
+                                  "name": "Alt. 17 Image",
+                                  "width": "fill_container",
+                                  "height": 120,
+                                  "fill": "#e5e7eb",
+                                  "cornerRadius": 4
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "SGCVx",
+                                  "name": "Alt. 17 Title",
+                                  "fill": "#1f2937",
+                                  "content": "方案 17",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "viY41",
+                                  "name": "Alt. 17 Actions",
+                                  "width": "fill_container",
+                                  "gap": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "dNkwM",
+                                      "name": "Alt. 17 Thumbs Up",
+                                      "width": 20,
+                                      "height": 20,
+                                      "iconFontName": "thumbs-up",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#6b7280"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "aSSS2",
+                                      "name": "Alt. 17 Thumbs Down",
+                                      "width": 20,
+                                      "height": 20,
+                                      "iconFontName": "thumbs-down",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#6b7280"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "5EsFN",
+                                      "name": "Alt. 17 Medal",
+                                      "width": 20,
+                                      "height": 20,
+                                      "iconFontName": "award",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#6b7280"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ElQPt",
+                              "name": "Alt. 18 Card",
+                              "width": 200,
+                              "height": 250,
+                              "fill": "#ffffff",
+                              "cornerRadius": 8,
+                              "layout": "vertical",
+                              "gap": 12,
+                              "padding": 16,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "9eLCH",
+                                  "name": "Alt. 18 Image",
+                                  "width": "fill_container",
+                                  "height": 120,
+                                  "fill": "#e5e7eb",
+                                  "cornerRadius": 4
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "A7l7P",
+                                  "name": "Alt. 18 Title",
+                                  "fill": "#1f2937",
+                                  "content": "方案 18",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "RKqoA",
+                                  "name": "Alt. 18 Actions",
+                                  "width": "fill_container",
+                                  "gap": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "v1X6s",
+                                      "name": "Alt. 18 Thumbs Up",
+                                      "width": 20,
+                                      "height": 20,
+                                      "iconFontName": "thumbs-up",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#6b7280"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "VZmjR",
+                                      "name": "Alt. 18 Thumbs Down",
+                                      "width": 20,
+                                      "height": 20,
+                                      "iconFontName": "thumbs-down",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#6b7280"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "un7ZS",
+                                      "name": "Alt. 18 Medal",
+                                      "width": 20,
+                                      "height": 20,
+                                      "iconFontName": "award",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#6b7280"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WbfZe",
+                          "name": "Compare Section",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "uRP6s",
+                              "name": "Compare Label",
+                              "fill": "#6b7280",
+                              "content": "比较:",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "qaDgy",
+                              "name": "Compare Dropdown",
+                              "width": 120,
+                              "height": 32,
+                              "fill": "#ffffff",
+                              "cornerRadius": 6,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#dcdfe6"
+                              },
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "TFnA1",
+                                  "name": "Compare Dropdown Text",
+                                  "fill": "#606266",
+                                  "content": "实际",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "RYSXY",
+                                  "name": "Compare Dropdown Arrow",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "chevron-down",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#909399"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Y6bf7",
+                          "name": "Parameter Name Section",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "AVvkT",
+                              "name": "Parameter Name Text",
+                              "fill": "#6b7280",
+                              "content": "参数名称单位",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "xFeIq",
+                              "name": "Parameter Name Icons",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "mYkXP",
+                                  "name": "Parameter Name Info",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "info",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#6b7280"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "R2Daz",
+                      "name": "Cost Table Section",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fSkhE",
+                          "name": "Cost Table Title",
+                          "fill": "#1f2937",
+                          "content": "成本",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "4lH2k",
+                          "name": "Cost Table",
+                          "width": "fill_container",
+                          "fill": "#ffffff",
+                          "cornerRadius": 8,
+                          "layout": "vertical",
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "iSY3K",
+                              "name": "Cost Table Header",
+                              "width": "fill_container",
+                              "height": 40,
+                              "fill": "#f9fafb",
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Kg6tx",
+                                  "name": "Cost Table Header Rank",
+                                  "fill": "#1f2937",
+                                  "content": "排名",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "0MMR1",
+                                  "name": "Cost Table Header Score",
+                                  "fill": "#1f2937",
+                                  "content": "分数",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "J6urn",
+                              "name": "Cost Table Row 1",
+                              "width": "fill_container",
+                              "height": 48,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#e5e7eb"
+                              },
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "09hyR",
+                                  "name": "Cost Table Row 1 Rank",
+                                  "fill": "#1f2937",
+                                  "content": "1",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Zul0B",
+                                  "name": "Cost Table Row 1 Score",
+                                  "fill": "#1f2937",
+                                  "content": "100",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "X55LK",
+                              "name": "Cost Table Row 2",
+                              "width": "fill_container",
+                              "height": 48,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#e5e7eb"
+                              },
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "7iBxD",
+                                  "name": "Cost Table Row 2 Rank",
+                                  "fill": "#1f2937",
+                                  "content": "2",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "48Ips",
+                                  "name": "Cost Table Row 2 Score",
+                                  "fill": "#1f2937",
+                                  "content": "95.2835",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "RQEwL",
+                              "name": "Cost Table Row 3",
+                              "width": "fill_container",
+                              "height": 48,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#e5e7eb"
+                              },
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "4BZes",
+                                  "name": "Cost Table Row 3 Rank",
+                                  "fill": "#1f2937",
+                                  "content": "3",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "eKyKY",
+                                  "name": "Cost Table Row 3 Score",
+                                  "fill": "#1f2937",
+                                  "content": "92.0508",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "r9WKT",
+                              "name": "Cost Table Row 4",
+                              "width": "fill_container",
+                              "height": 48,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#e5e7eb"
+                              },
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "UrvRj",
+                                  "name": "Cost Table Row 4 Rank",
+                                  "fill": "#1f2937",
+                                  "content": "4",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "aUPxp",
+                                  "name": "Cost Table Row 4 Score",
+                                  "fill": "#1f2937",
+                                  "content": "88.4986",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jBVGL",
+              "name": "el-steps",
+              "width": "fill_container",
+              "height": 80,
+              "fill": "#ffffff",
+              "cornerRadius": 8,
+              "padding": 24,
+              "justifyContent": "space_between",
+              "alignItems": "center"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
