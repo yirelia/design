@@ -4075,7 +4075,7 @@
               "id": "sx7Ct",
               "name": "cardsRow2",
               "width": "fill_container",
-              "height": "fill_container",
+              "height": 309,
               "fill": "#FFFFFF",
               "cornerRadius": 8,
               "stroke": {
