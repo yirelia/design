@@ -1,0 +1,551 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "YHwG7",
+      "x": 0,
+      "y": 0,
+      "name": "架构模型面板",
+      "width": 420,
+      "height": 900,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "0YMvC",
+          "name": "头部",
+          "width": "fill_container",
+          "height": 50,
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#E0E0E0"
+          },
+          "gap": 12,
+          "padding": [
+            0,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "X3eFV",
+              "name": "homeIcon",
+              "width": 20,
+              "height": 20,
+              "iconFontName": "home",
+              "iconFontFamily": "Material Symbols Outlined",
+              "fill": "#1976D2"
+            },
+            {
+              "type": "text",
+              "id": "YBNg8",
+              "name": "titleText",
+              "fill": "#1976D2",
+              "content": "架构模型",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "o4Bv8",
+              "name": "搜索框",
+              "width": 200,
+              "height": 32,
+              "fill": "#FFFFFF",
+              "cornerRadius": 4,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#DCDFE6"
+              },
+              "padding": [
+                0,
+                0,
+                0,
+                10
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "raljk",
+                  "name": "searchPlaceholder",
+                  "fill": "#333333",
+                  "content": "机械结构",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "ahNwg",
+                  "name": "搜索按钮",
+                  "width": 50,
+                  "height": 32,
+                  "fill": "#409EFF",
+                  "cornerRadius": [
+                    0,
+                    4,
+                    4,
+                    0
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "t7t9e",
+                      "name": "searchIcon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "search",
+                      "iconFontFamily": "Material Symbols Outlined",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jUTx9",
+          "name": "树内容",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            8,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "D3iKq",
+              "name": "节点1",
+              "width": "fill_container",
+              "height": 44,
+              "gap": 8,
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "S4EXD",
+                  "name": "arrow1",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "chevron_right",
+                  "iconFontFamily": "Material Symbols Outlined",
+                  "fill": "#666666"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "dWV4F",
+                  "name": "icon1",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "account_tree",
+                  "iconFontFamily": "Material Symbols Outlined",
+                  "fill": "#1976D2"
+                },
+                {
+                  "type": "text",
+                  "id": "qcU22",
+                  "name": "text1",
+                  "fill": "#333333",
+                  "content": "作动系统控制系统 A.1",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NDKHo",
+              "name": "节点2",
+              "width": "fill_container",
+              "height": 44,
+              "gap": 8,
+              "padding": [
+                0,
+                16,
+                0,
+                32
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "gAerK",
+                  "name": "arrow2",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "chevron_right",
+                  "iconFontFamily": "Material Symbols Outlined",
+                  "fill": "#666666"
+                },
+                {
+                  "type": "text",
+                  "id": "646aD",
+                  "name": "text2",
+                  "fill": "#333333",
+                  "content": "作动系统逻辑架构 A.1",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "V9W0N",
+              "name": "节点3",
+              "width": "fill_container",
+              "height": 44,
+              "gap": 8,
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "kPL6w",
+                  "name": "icon3",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "account_tree",
+                  "iconFontFamily": "Material Symbols Outlined",
+                  "fill": "#1976D2"
+                },
+                {
+                  "type": "text",
+                  "id": "dTR25",
+                  "name": "text3",
+                  "fill": "#333333",
+                  "content": "换向阀 A.1",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YqHMP",
+              "name": "节点4",
+              "width": "fill_container",
+              "height": 44,
+              "gap": 8,
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "QlNmp",
+                  "name": "icon4",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "account_tree",
+                  "iconFontFamily": "Material Symbols Outlined",
+                  "fill": "#1976D2"
+                },
+                {
+                  "type": "text",
+                  "id": "9Y4Gt",
+                  "name": "text4",
+                  "fill": "#333333",
+                  "content": "主支架 A.1",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WAYpy",
+              "name": "节点5",
+              "width": "fill_container",
+              "height": 44,
+              "gap": 8,
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "sEM47",
+                  "name": "icon5",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "account_tree",
+                  "iconFontFamily": "Material Symbols Outlined",
+                  "fill": "#1976D2"
+                },
+                {
+                  "type": "text",
+                  "id": "Yv1WL",
+                  "name": "text5",
+                  "fill": "#333333",
+                  "content": "接口模块 A.1",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "n6lTZ",
+              "name": "节点6",
+              "width": "fill_container",
+              "height": 44,
+              "gap": 8,
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "agfVA",
+                  "name": "icon6",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "account_tree",
+                  "iconFontFamily": "Material Symbols Outlined",
+                  "fill": "#1976D2"
+                },
+                {
+                  "type": "text",
+                  "id": "RfrrA",
+                  "name": "text6",
+                  "fill": "#333333",
+                  "content": "模块1 A.1",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K55hi",
+              "name": "节点7-高亮",
+              "width": "fill_container",
+              "height": 44,
+              "fill": "#E3F2FD",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "left": 3
+                },
+                "fill": "#1976D2"
+              },
+              "gap": 8,
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "Hc0oo",
+                  "name": "arrow7",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "chevron_right",
+                  "iconFontFamily": "Material Symbols Outlined",
+                  "fill": "#1976D2"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "hnfQT",
+                  "name": "icon7",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "account_tree",
+                  "iconFontFamily": "Material Symbols Outlined",
+                  "fill": "#1976D2"
+                },
+                {
+                  "type": "text",
+                  "id": "l6vNo",
+                  "name": "text7",
+                  "fill": "#1976D2",
+                  "content": "作动系统机械结构 A.1",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4kMU9",
+              "name": "节点8",
+              "width": "fill_container",
+              "height": 44,
+              "gap": 8,
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "jnkVM",
+                  "name": "icon8",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "account_tree",
+                  "iconFontFamily": "Material Symbols Outlined",
+                  "fill": "#1976D2"
+                },
+                {
+                  "type": "text",
+                  "id": "UTVOB",
+                  "name": "text8",
+                  "fill": "#333333",
+                  "content": "模块 A.1",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DTs0Y",
+              "name": "节点9",
+              "width": "fill_container",
+              "height": 44,
+              "gap": 8,
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "fx5Xt",
+                  "name": "icon9",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "account_tree",
+                  "iconFontFamily": "Material Symbols Outlined",
+                  "fill": "#1976D2"
+                },
+                {
+                  "type": "text",
+                  "id": "LOCKx",
+                  "name": "text9",
+                  "fill": "#333333",
+                  "content": "作动系统液压系统 A.1",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "yl05H",
+              "name": "节点10",
+              "width": "fill_container",
+              "height": 44,
+              "gap": 8,
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "FQaEI",
+                  "name": "icon10",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "account_tree",
+                  "iconFontFamily": "Material Symbols Outlined",
+                  "fill": "#1976D2"
+                },
+                {
+                  "type": "text",
+                  "id": "QdXeL",
+                  "name": "text10",
+                  "fill": "#333333",
+                  "content": "作动筒 A.1",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EXA6P",
+              "name": "节点11",
+              "width": "fill_container",
+              "height": 44,
+              "gap": 8,
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "BZyIu",
+                  "name": "icon11",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "account_tree",
+                  "iconFontFamily": "Material Symbols Outlined",
+                  "fill": "#1976D2"
+                },
+                {
+                  "type": "text",
+                  "id": "ZJdeL",
+                  "name": "text11",
+                  "fill": "#333333",
+                  "content": "连杆 A.1",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
